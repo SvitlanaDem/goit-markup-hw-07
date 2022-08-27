@@ -20,7 +20,7 @@
 .about__icon {
   height: 120px;
   margin-bottom: 30px;
-  background: var(--color-backgraund);
+  background: $color-background;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -31,5 +31,5 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: $text-color;
 }

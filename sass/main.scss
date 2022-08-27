@@ -3,7 +3,7 @@
 @import "./utils/hidden";
 
 @import "./components/container";
-@import "./base/logo";
+@import "./components/logo";
 
 @import "./layout/header";
 @import "./components/contacts";
@@ -17,7 +17,6 @@
 
 @import "./layout/footer";
 
-@import "./components/backdrop";
 @import "./components/modal";
 @import "./components/modal-field";
 @import "./components/check";

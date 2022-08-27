@@ -4,7 +4,7 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .header__logo {
@@ -16,5 +16,5 @@
 }
 
 .logo--white {
-  color: var(--second-text-color);
+  color: $second-text-color;
 }

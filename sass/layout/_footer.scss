@@ -32,15 +32,15 @@
 }
 
 .address__link--color-white {
-  color: var(--second-text-color);
+  color: $second-text-color;
 }
 
 .address__link--color-grey {
   color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -50,7 +50,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-text-color);
+  color: $second-text-color;
   margin-bottom: 20px;
 }
 
@@ -67,15 +67,15 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms var(--timing-function);
+  transition: background-color 250ms $timing-function;
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
 
 .footer__soc-icon {
-  fill: var(--second-text-color);
+  fill: $second-text-color;
 }
 
 .footer__wrap--third {
@@ -90,16 +90,16 @@
   width: 358px;
   height: 50px;
   margin-right: 12px;
-  color: var(--second-text-color);
+  color: $second-text-color;
   background-color: transparent;
   padding-left: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   outline: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  transition: border-color 250ms var(--timing-function);
+  transition: border-color 250ms $timing-function;
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   &::placeholder {
     font-weight: 400;
@@ -117,6 +117,6 @@
 }
 
 .footer-form__icon {
-  fill: var(--second-text-color);
+  fill: $second-text-color;
   margin-left: 10px;
 }

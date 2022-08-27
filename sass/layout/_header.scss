@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--second-text-color);
+  background-color: $second-text-color;
   border-bottom: 1px solid #ececec;
   > .container {
     display: flex;
@@ -23,10 +23,10 @@
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--first-text-color);
-  transition: color 250ms var(--timing-function);
+  color: $first-text-color;
+  transition: color 250ms $timing-function;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }

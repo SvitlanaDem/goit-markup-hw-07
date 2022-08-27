@@ -15,7 +15,7 @@
   margin-bottom: 30px;
   cursor: pointer;
   span {
-    border: 1px solid var(--first-text-color);
+    border: 1px solid $first-text-color;
     border-radius: 2px;
     width: 16px;
     height: 15px;
@@ -23,25 +23,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: border-color 250ms var(--timing-function);
+    transition: border-color 250ms $timing-function;
     .modal-check:checked + & {
-      background-color: var(--accent-color);
+      background-color: $accent-color;
       border: none;
     }
     .modal-check:focus + & {
-      border-color: var(--accent-color);
+      border-color: $accent-color;
     }
   }
 }
 
 .check-link {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .check-icon {
   fill: transparent;
   .modal-check:checked + .check-text & {
-    fill: #ffffff;
+    fill: $second-text-color;
   }
 }
 
